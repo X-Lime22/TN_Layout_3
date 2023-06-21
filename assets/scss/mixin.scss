@@ -1,0 +1,33 @@
+@mixin background-img {
+	max-width: 925px;
+	//min-height: 720px;
+	border-radius: 10px 10px 0 0;
+	background-repeat: no-repeat;
+}
+
+@mixin head-main_link {
+	content: "";
+	position: absolute;
+	bottom: -7px;
+	left: 35%;
+	z-index: 1;
+	width: 45px;
+	height: 1px;
+	border-radius: 1px;
+	display: block;
+	background-color: $white;
+}
+
+@mixin events-main_decor {
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	z-index: -1;
+	
+	display: block;
+	
+	opacity: 0.35;
+	font-size: 133px;
+	font-weight: 500;
+	color: #FF5561;
+}

@@ -1,0 +1,33 @@
+.info {
+	padding-left: 80px;
+	color: $white;
+	
+	&__title {
+		font-size: $fs-54;
+		font-weight: bold;
+		
+		margin-bottom: 40px;
+	}
+}
+	
+.list {
+	font-family: "Manrope", sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	
+	padding-left: 20px;
+}
+
+@media (max-width: 547px) {
+	.info {
+		padding: 0 20px;
+		
+		&__title {
+			font-size: 36px;
+		}
+	}
+	
+	.info__list {
+		font-size: 12px;
+	}
+}

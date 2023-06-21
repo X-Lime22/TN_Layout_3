@@ -1,0 +1,99 @@
+@import "zero-style";
+@import "vars";
+@import "mixin";
+
+/*blocks*/
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/aside";
+@import "blocks/info";
+@import "blocks/footer";
+@import "blocks/advantages";
+
+
+
+/*Manrope*/
+@font-face {
+	font-family: 'Manrope';
+	src: url('../fonts/Manrope/Manrope-Regular.ttf');
+	//src: local('');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: url('../fonts/Manrope/Manrope-Medium.ttf');
+	//src: local('');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: url('../fonts/Manrope/Manrope-SemiBold.ttf');
+	//src: local('');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: url('../fonts/Manrope/Manrope-Bold.ttf');
+	//src: local('');
+	font-weight: 700;
+	font-style: normal;
+	
+}
+
+/*Stem*/
+@font-face {
+	font-family: 'Stem';
+	src: url('../fonts/Stem/Stem-Light.ttf');
+	//src: local('');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Stem';
+	src: url('../fonts/Stem/Stem-Regular.ttf');
+	//src: local('');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Stem';
+	src: url('../fonts/Stem/Stem-Medium.ttf');
+	//src: local('');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Stem';
+	src: url('../fonts/Stem/Stem-Bold.ttf');
+	//src: local('');
+	font-weight: 700;
+	font-style: normal;
+}
+
+.container {
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+	
+	@media (max-width: 769px) {
+		padding: 0;
+	}
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	
+	padding-bottom: 91px;
+}
+

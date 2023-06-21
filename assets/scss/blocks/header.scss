@@ -1,0 +1,86 @@
+.header {
+	margin: 20px 0 20px 0;
+	
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		
+		margin-left: 315px;
+	}
+	
+	&__search {
+		display: flex;
+		width: 66%;
+	}
+	
+	&__profile {
+		position: relative;
+
+		display: flex;
+		align-items: center;
+		
+		margin-right: 40px;
+		
+		&-inner {
+			margin-left: 60px;
+		}
+		
+		&_img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+		}
+		
+		&_name {
+			color: $black;
+			font-weight: 700;
+			
+			font-family: "Stem", sans-serif;
+		}
+		
+		&_post {
+			margin-top: 4px;
+			
+			font-size: 12px;
+			font-weight: 400;
+			color: #666666;
+			
+			font-family: "Manrope", sans-serif
+		}
+	}
+}
+
+.search-form {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: $white;
+	border-radius: 10px;
+	
+	&-label {
+		padding: 12px 0 12px 30px;
+		border-radius: 10px;
+		width: 100%;
+	}
+	
+	&-button {
+		background-color: $white;
+		border-radius: 10px;
+		
+		padding: 12px 20px 13px 0;
+	}
+}
+
+input::placeholder {
+	color: $gray;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.burger__menu {
+	display: none;
+	padding: 25px 20px 35px 0;
+}
+
